@@ -1,0 +1,4 @@
+name: CustomMobs
+main: me.Darrionat.CustomMobs.Main
+description: A custom plugin that gives custom effects to mobs
+version: 1.3
