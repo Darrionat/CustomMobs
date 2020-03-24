@@ -35,7 +35,7 @@ public class EntitySpawn implements Listener {
 		LivingEntity entity = e.getEntity();
 		String entityType = entity.getType().toString();
 
-		if (e.getSpawnReason() == SpawnReason.SPAWNER && config.getBoolean("SpawnerCustomMobs")) {
+		if (e.getSpawnReason() == SpawnReason.SPAWNER && config.getBoolean("SpawnerCustomMobs") == false) {
 			return;
 		}
 
