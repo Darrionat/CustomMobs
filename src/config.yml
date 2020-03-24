@@ -1,0 +1,95 @@
+#The chance that a mob will be custom. 50 = 50%
+CustomMobPercent: 50
+DoubleDrops: true
+SpawnerCustomMobs: false
+BabiesFromGiant: true
+
+CustomPaper:
+    Enabled: true
+    Name: "&aFancy Paper"
+    Glowing: true
+    Percent: 10
+    Lore:
+        - "Line 1"
+        - "Line 1"
+        - "Line 1"
+#Giants drop these
+DragonEgg:
+    Enabled: true
+    Name: "&dDragon Egg"
+    Glowing: true
+    Lore:
+        - "Line 1"
+        - "Line 1"
+        - "Line 1"
+#1 is default
+BLAZE:
+    speedMultiplier: 1.5
+    damageMultiplier: 1
+CREEPER:
+    speedMultiplier: 1.5
+    damageMultiplier: 1
+DROWNED:
+    speedMultiplier: 1
+    damageMultiplier: 2
+GHAST:
+    speedMultiplier: 1.5
+    damageMultiplier: 1
+HUSK:
+    speedMultiplier: 1.5
+    damageMultiplier: 2
+MAGMA_CUBE:
+    speedMultiplier: 1
+    damageMultiplier: 2
+    firePercent: 50
+SLIME:
+    speedMultiplier: 1
+    damageMultiplier: 2
+    slowPercent: 50
+SKELETON:
+    speedMultiplier: 1.5
+    damageMultiplier: 1
+    arrowSpeedMultiplier: 5
+STRAY:
+    speedMultiplier: 1.5
+    damageMultiplier: 1
+SILVERFISH:
+    speedMultiplier: 1.5
+    damageMultiplier: 2
+WITCH:
+    speedMultiplier: 1.5
+    damageMultiplier: 1
+ZOMBIE:
+    speedMultiplier: 1.5
+    damageMultiplier: 2
+    weaknessPercent: 50
+SPIDER:
+    speedMultiplier: 1.5
+    damageMultiplier: 2
+    confusionPercent: 50
+    #In seconds
+    confusionDuration: 10
+CAVE_SPIDER:
+    speedMultiplier: 1.5
+    damageMultiplier: 2
+ENDERMAN:
+    speedMultiplier: 1
+    damageMultiplier: 2
+    levitationPercent: 50
+PIG_ZOMBIE:
+    speedMultiplier: 1.5
+    damageMultiplier: 1.5
+WITHER_SKELETON:
+    speedMultiplier: 1.5
+    damageMultiplier: 1
+GUARDIAN:
+    speedMultiplier: 1
+    damageMultiplier: 1.25
+GIANT:
+    speedMultiplier: 1
+    damageMultiplier: 1
+    weaknessPercent: 50
+    # 0.5% (1/200)
+    spawnChancePercent: 0.5
+    # base damage in half hearts
+    baseDamage: 5
